@@ -1,0 +1,131 @@
+//TODO---Обнуляюший стиль---
+//https://www.flaticon.com/ru/free-icons/gears
+@import "_reset";
+
+//TODO----Шрифты----------------------------------
+
+@import "Gilroy-Black.scss";
+@import "Gilroy-Bold.scss";
+@import "Gilroy-ExtraBoldItalic.scss";
+@import "Gilroy-Light.scss";
+@import "Gilroy-Medium.scss";
+@import "Gilroy-Regular.scss";
+@import "Gilroy-SemiBold.scss";
+@import "Montserrat-Medium.scss";
+
+//!---Основа---
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    min-width: 1440px;
+    background-color: rgb(218, 250, 215);
+}
+[class*="__container"] {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+}
+.header {
+    height: 90px;
+}
+.main {
+    flex: 1 1 auto;
+}
+.icon__logo {
+    width: 32px;
+    height: 32x;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 21px;
+    color: #737373;
+    text-align: center;
+
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.2px;
+}
+.nav__container {
+    justify-content: space-between;
+    padding: 16px 16px;
+    background-color: rgb(190, 250, 190);
+    border-radius: 16px;
+    margin: 16px auto;
+}
+.menu__text{
+    display: inline-flex;
+    padding: 3px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 240px;
+}
+
+a {
+    color: #272727;
+}
+
+.header__container {
+    background-color: rgb(190, 250, 190);
+    display: flex;
+    width: 1240px;
+    height: 680px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 80px;
+    border-radius: 16px;
+}
+
+.header__slider {
+    display: flex;
+    overflow: hidden;
+    width: 1240px;
+    height: 680px;
+    flex-direction: row;
+
+}
+
+.slide {
+    display: none;
+    position: absolute;
+    width: 1240px;
+    height: 680px;
+    
+  }
+
+.s1 {
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.s2 {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.s3 {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+
+.slide.active {
+    display: block;
+    animation: fade 5s infinite;
+  }
+  
+  @keyframes fade {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }

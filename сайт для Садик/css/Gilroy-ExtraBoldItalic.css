@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic.eot");
+  src: url("../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic.woff") format("woff"), url("../fonts/Gilroy-ExtraBoldItalic/Gilroy-ExtraBoldItalic.svg#Gilroy-ExtraBoldItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+}

@@ -1,0 +1,7 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black/Gilroy-Black.eot");
+  src: url("../fonts/Gilroy-Black/Gilroy-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Black/Gilroy-Black.woff2") format("woff2"), url("../fonts/Gilroy-Black/Gilroy-Black.woff") format("woff"), url("../fonts/Gilroy-Black/Gilroy-Black.svg#Gilroy-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
